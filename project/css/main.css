@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.test_main{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.test_main img{
+    width: 100%;
+}
+
+.main_text{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 45px;
+
+}
+
+.main_button{
+    position: absolute;
+    bottom:10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 20px;
+    color: rgb(223, 72, 102);
+    background-color: rgb(243, 219, 228);
+    border: none;
+    border-radius: 10%;
+    padding: 10px 15px;
+}
+
+.main_button:hover{
+    background-color:rgb(233, 142, 177);
+    color: rgb(247, 241, 245);
+}

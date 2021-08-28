@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&display=swap');
+
+.qna{
+    position: relative;
+    display:none;
+    background-color: rgb(238, 228, 175);
+}
+
+.qBox{
+
+    position: absolute;
+    text-align: center;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: 50px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.answerBox{
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.answerList{
+
+    display: block;   
+    width: 100%;
+    margin-top: 100px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px auto;
+    text-align: center;
+}
+
+.answerList:hover, .answerList:focus{
+    
+    background-color:rgb(185, 185, 181) ;
+}
+
+.status{
+    position: absolute;
+    height: 20px;
+    width: 80%;
+    background-color: white;
+}
+
+.statusBar{
+    position: absolute;
+    height: 100%;
+}
